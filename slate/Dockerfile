@@ -1,4 +1,4 @@
-FROM ruby:2.7.3
+FROM ruby:2.7.7
 EXPOSE 4567
 
 RUN apt-get update && apt-get install -y git nodejs
